@@ -38,7 +38,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func changedRedSlider() {
-        redValue.text = String(redSlider.value)
+        redValue.text = String((redSlider.value * 100).rounded() / 100)
         checkColor.backgroundColor = UIColor (
             red: CGFloat(redSlider.value),
             green: CGFloat(greenSlider.value),
@@ -49,7 +49,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func changedGreenSlider() {
-        greenValue.text = String(greenSlider.value)
+        greenValue.text = String((greenSlider.value * 100).rounded() / 100)
         checkColor.backgroundColor = UIColor (
             red: CGFloat(redSlider.value),
             green: CGFloat(greenSlider.value),
@@ -60,7 +60,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func changedBlueSlider() {
-        blueValue.text = String(blueSlider.value)
+        blueValue.text = String((blueSlider.value * 100).rounded() / 100)
         checkColor.backgroundColor = UIColor (
             red: CGFloat(redSlider.value),
             green: CGFloat(greenSlider.value),
@@ -71,7 +71,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func changeAlpha() {
-        alphaValue.text = String(alphaSlider.value)
+        alphaValue.text = String((alphaSlider.value * 100).rounded() / 100)
         checkColor.backgroundColor = UIColor (
             red: CGFloat(redSlider.value),
             green: CGFloat(greenSlider.value),
