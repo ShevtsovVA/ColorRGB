@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -18,14 +18,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Tai-g3-mqs">
-                                <rect key="frame" x="158" y="340.5" width="235" height="30"/>
+                                <rect key="frame" x="158" y="340.33333333333331" width="235" height="30"/>
                                 <connections>
                                     <action selector="changedGreenSlider" destination="BYZ-38-t0r" eventType="valueChanged" id="Y48-iO-Z1T"/>
                                     <action selector="changedRedSlider" destination="BYZ-38-t0r" eventType="valueChanged" id="1hz-JD-kqR"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="4kw-GN-Frq">
-                                <rect key="frame" x="158" y="380.5" width="235" height="31"/>
+                                <rect key="frame" x="158" y="380.33333333333331" width="235" height="31"/>
                                 <connections>
                                     <action selector="changedBlueSlider" destination="BYZ-38-t0r" eventType="valueChanged" id="9NU-Jk-i76"/>
                                     <action selector="changedGreenSlider" destination="BYZ-38-t0r" eventType="valueChanged" id="KJx-jY-XcO"/>
@@ -33,50 +33,50 @@
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="id7-ub-Sku">
-                                <rect key="frame" x="24" y="304" width="30" height="20.5"/>
+                                <rect key="frame" x="24" y="304" width="30" height="20.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zFY-KA-csQ">
-                                <rect key="frame" x="24" y="344.5" width="46.5" height="20.5"/>
+                                <rect key="frame" x="23.999999999999996" y="344.66666666666669" width="46.666666666666657" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ZL-f3-fQY">
-                                <rect key="frame" x="24" y="385" width="33.5" height="20.5"/>
+                                <rect key="frame" x="23.999999999999996" y="385" width="33.666666666666657" height="20.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="0.5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30" translatesAutoresizingMaskIntoConstraints="NO" id="yBr-gQ-nWG">
-                                <rect key="frame" x="94" y="304" width="24" height="21"/>
+                                <rect key="frame" x="94" y="303.66666666666669" width="24" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="0.5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UyZ-qf-KM5">
-                                <rect key="frame" x="94" y="344.5" width="24" height="20.5"/>
+                                <rect key="frame" x="94" y="344.66666666666669" width="24" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="0.5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xfU-F6-g5a">
-                                <rect key="frame" x="94" y="385" width="24" height="20.5"/>
+                                <rect key="frame" x="94" y="385" width="24" height="20.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="dSk-ii-5HX">
-                                <rect key="frame" x="158" y="299.5" width="238" height="31"/>
+                                <rect key="frame" x="158" y="299.33333333333331" width="238" height="31"/>
                                 <connections>
                                     <action selector="changedGreenSlider" destination="BYZ-38-t0r" eventType="valueChanged" id="3DD-US-fJn"/>
                                     <action selector="changedRedSlider" destination="BYZ-38-t0r" eventType="valueChanged" id="gl8-3o-d6u"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="cxA-u3-6J7">
-                                <rect key="frame" x="158" y="421" width="233" height="31"/>
+                                <rect key="frame" x="158" y="420.66666666666669" width="233" height="31"/>
                                 <connections>
                                     <action selector="changeAlpha" destination="BYZ-38-t0r" eventType="valueChanged" id="ZPP-gz-8EJ"/>
                                     <action selector="changedBlueSlider" destination="BYZ-38-t0r" eventType="valueChanged" id="YA4-SV-qno"/>
@@ -85,7 +85,7 @@
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alpha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKR-gc-blf">
-                                <rect key="frame" x="24" y="425.5" width="43.5" height="20.5"/>
+                                <rect key="frame" x="23.999999999999996" y="425.66666666666669" width="43.666666666666657" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -98,7 +98,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HlY-rP-hKO">
-                                <rect key="frame" x="94" y="425.5" width="7.5" height="20.5"/>
+                                <rect key="frame" x="94" y="425.66666666666669" width="7.6666666666666714" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
